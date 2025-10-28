@@ -1,29 +1,18 @@
 # WEBPACK
 
-Для установки пакетов используйте команду npm install
+To install packages use the command:  
+`npm install`
 
-## Команды
+## Commands
 
-### Запуск сервера для разработки
+**Start development server**  
+`npm run start`
 
-```shell
-npm run start
-```
+**Build project without optimization**  
+`npm run build-dev`
 
-### Сборка проекта без оптимизации
+**Build project with optimization**  
+`npm run build-prod`
 
-```shell
-npm run build-dev
-```
-
-### Сборка проекта с оптимизацией
-
-```shell
-npm run build-prod
-```
-
-### Очистка папки dist
-
-```shell
-npm run clear
-```
+**Clear dist folder**  
+`npm run clear`
